@@ -8,6 +8,7 @@ function Navbar() {
                     <a href="#" className="brand-logo">Peat's Sweets</a>
                     <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                     <ul className="right hide-on-med-and-down">
+                        <li><a href="cookies.html">About</a></li>
                         <li><a href="cookies.html">Cookies</a></li>
                         <li><a href="orders.html">Orders</a></li>
                     </ul>
@@ -15,8 +16,9 @@ function Navbar() {
             </nav>
 
             <ul className="sidenav" id="mobile-demo">
+                <li><a href="about.html">About</a></li>
                 <li><a href="cookies.html">Cookies</a></li>
-                    <li><a href="orders.html">Orders</a></li>
+                <li><a href="orders.html">Orders</a></li>
             </ul>
         </div>
     )

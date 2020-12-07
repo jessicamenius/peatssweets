@@ -23,7 +23,6 @@ function Footer() {
                 </div>
                 <div className="footer-copyright">
                 <div className="container"> © 2020 Peat's Sweets
-                <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
                 </div>
                 </div>
              </footer>
